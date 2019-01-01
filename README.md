@@ -1,1 +1,1 @@
-Front-end to test NeDB - DBMS final. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Front-end to test RavenDB.
