@@ -1,0 +1,36 @@
+.SideBar {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  box-shadow: 0 0 0 rgba(12,13,14,0.05);
+  box-sizing: border-box;
+  transition: box-shadow ease-in-out .1s,transform ease-in-out .1s;
+  border-right: 1px solid #d6d9dc;
+  min-height: 100vh;
+}
+
+.Nav {
+  transition: box-shadow ease-in-out .1s,transform ease-in-out .1s;
+  border-bottom: 1px solid #d6d9dc;
+  padding: 12px;
+  padding-left: 25px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #535a60;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin: 1px;
+}
+
+.Nav:hover {
+  background: rgba(6, 88, 240, 0.05);
+}
+
+.activeLink {
+  font-weight: 500;
+  color: #0C0D0E;
+  border-right: #0C0D0E solid 3px;
+  background: rgba(4, 120, 214, 0.05);
+}

@@ -1,0 +1,17 @@
+.App {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.NavBar {
+  height: 70px;
+  /* background-color: #fafbfb; */
+  box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+}
+
+.NavLogo {
+  height: 70px;
+  margin-left: 20px;
+}
+
